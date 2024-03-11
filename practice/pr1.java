@@ -1,6 +1,7 @@
-package practice;//연습문제 DM으로 스샷을 보내주세요
+package practice;
+
 // 다음과 같이 출력하시오.
-// 1. "Coding is Good!"
+
 // 2. "Java"문자와 "Programming"문자를  +연결연산자로
 //     연결해서 출력하시오.
 // 3. 십진 정수 123을 printf를 이용하여 출력하시오.

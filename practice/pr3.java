@@ -1,4 +1,6 @@
-package practice;//1. "funny"의 시작 인덱스를 출력하시오.
+package practice;
+
+//1. "funny"의 시작 인덱스를 출력하시오.
 //2. str6를 모두 대문자로 출력하시오.
 //3. str6를 모두 소문자로 ~
 //4. str5와 str6을 concat함수로 연결하여 출력하시오.

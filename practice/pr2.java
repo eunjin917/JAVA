@@ -1,4 +1,5 @@
-package practice;//연습문제 3 - DM으로 제출
+package practice;
+
 //1. short형 변수 num1을 선언하고 10값을 넣어서 초기화 한다.
 //   int형 변수 num2를 선언하고 20값을 넣어서 초기화 한다.
 //   num1을 float형 변수 num3에 넣어서(대입) 자동형변환 시키자.
