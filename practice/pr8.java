@@ -1,6 +1,7 @@
 package practice;
 
 // 3번 문제 - 369 게임 달인
+// https://codinggangsa.notion.site/8ecf0e44f25e4639b60a5c1dbc9b1918
 
 import java.util.Scanner;
 

@@ -21,10 +21,13 @@ public class ex02 {
         // println print printf
         System.out.println("1줄 출력 후 줄바꿈");   // 문자열 1줄 출력 + 줄바꿈
         System.out.print("1줄 출력만");         // 문자열 1줄 출력만
-        // \n : 줄바꿈 특수문자
-        System.out.printf("%d\n", 30);   // 형식화된 출력문 - 30 - 10진수
-        System.out.printf("%o\n", 30);   //              - 36 - 8진수
-        System.out.printf("%x\n", 30);   //              - 1e - 16진수
-        System.out.printf("%e\n", 30.0); //              - 3.000000e+01 - 지수형 출력 (실수만 가능, 정수X)
+        // printf : 형식화된 출력문
+        // - \n : 줄바꿈 특수문자
+        System.out.printf("%d\n", 30);   // 30 - 10진수
+        System.out.printf("%o\n", 30);   // 36 - 8진수
+        System.out.printf("%x\n", 30);   // 1e - 16진수
+        System.out.printf("%f\n", 30.0); // 30.0 - 실수
+        System.out.printf("%e\n", 30.0); // 3.000000e+01 - 지수형 출력 (실수만 가능, 정수X)
+        System.out.printf("%s\n", "30"); // 30 - 문자열
     }
 }

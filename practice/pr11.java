@@ -14,12 +14,14 @@ public class pr11 {
         int younghee = (int)(Math.random()*6) + 1;
 
         System.out.println("철수는 "+chulsoo+", 영희는 "+younghee);
-        if (chulsoo%2==0 && younghee%2==0) {
-            System.out.println("철수 승!");
-        } else if  (chulsoo%2==1 && younghee%2==1) {
-            System.out.println("영희 승!");
-        } else {
-            System.out.println("무승부!");
-        }
+
+        String answer = "";
+        if (chulsoo%2==0 && younghee%2==0)
+            answer = "철수 승!";
+        else if  (chulsoo%2==1 && younghee%2==1)
+            answer = "영희 승!";
+        else
+            answer = "무승부!";
+        System.out.println(answer);
     }
 }

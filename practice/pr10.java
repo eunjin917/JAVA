@@ -1,6 +1,7 @@
 package practice;
 
 // 5번 문제 - 텍스트 야구 게임
+// https://codinggangsa.notion.site/8ecf0e44f25e4639b60a5c1dbc9b1918
 
 import java.util.Random;
 
@@ -18,16 +19,15 @@ public class pr10 {
             try {
                 Thread.sleep(1000);
             } catch (Exception e) {
-                System.out.println("에러 발생!");
+                System.out.println("에러 발생! "+e);
             }
 
             if (outCount == 3) {
                 System.out.println("게임 종료!");
                 break;
             }
-            else if (strikeCount == 0 && ballCount == 0) {
+            if (strikeCount == 0 && ballCount == 0)
                 System.out.println(hitter+"번타자");
-            }
 
             int ball = random.nextInt(2);
             if (ball == 0) {

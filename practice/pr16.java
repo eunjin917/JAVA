@@ -20,7 +20,7 @@ public class pr16 {
 
         int n = scanner.nextInt();
         int count = 0;
-        for (int i =1; i<=n; i++) {
+        for (int i=1; i<=n; i++) {
             for (int j=2; j<=i; j++) {
                 if (i==j) {
                     System.out.println(i);

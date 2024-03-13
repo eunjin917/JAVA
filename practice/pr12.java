@@ -33,12 +33,10 @@ public class pr12 {
         int youngheeTotal = younghee1*10 + younghee2;
         System.out.println("영희의 점수는 "+youngheeTotal);
 
-        if (chulsooTotal > youngheeTotal) {
-            System.out.println("철수 승!");
-        } else if  (chulsooTotal < youngheeTotal) {
-            System.out.println("영희 승!");
-        } else {
-            System.out.println("무승부!");
-        }
+        String answer = "";
+        if (chulsooTotal > youngheeTotal) answer = "철수 승!";
+        else if  (chulsooTotal < youngheeTotal) answer = "영희 승!";
+        else answer = "무승부!";
+        System.out.println(answer);
     }
 }
